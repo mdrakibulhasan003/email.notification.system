@@ -1,0 +1,981 @@
+2025-05-30T18:02:27.757+06:00  INFO 12600 --- [notification.system] [main] com.notification.system.Application      : Starting Application using Java 17.0.12 with PID 12600 (F:\spring practice files\notification.system\notification.system\target\classes started by MD RAKIBUL HASAN in F:\spring practice files\notification.system)
+2025-05-30T18:02:27.763+06:00  INFO 12600 --- [notification.system] [main] com.notification.system.Application      : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T18:02:30.110+06:00  INFO 12600 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-30T18:02:30.135+06:00  INFO 12600 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T18:02:30.136+06:00  INFO 12600 --- [notification.system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-30T18:02:30.292+06:00  INFO 12600 --- [notification.system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T18:02:30.292+06:00  INFO 12600 --- [notification.system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2379 ms
+2025-05-30T18:02:31.507+06:00  INFO 12600 --- [notification.system] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-30T18:02:32.284+06:00  INFO 12600 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2025-05-30T18:02:32.288+06:00  INFO 12600 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@153cb763]]
+2025-05-30T18:02:32.291+06:00  INFO 12600 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2025-05-30T18:02:32.342+06:00  INFO 12600 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-05-30T18:02:32.370+06:00  INFO 12600 --- [notification.system] [main] com.notification.system.Application      : Started Application in 5.704 seconds (process running for 6.887)
+2025-05-30T18:02:32.589+06:00  INFO 12600 --- [notification.system] [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30T18:02:32.590+06:00  INFO 12600 --- [notification.system] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-30T18:02:32.592+06:00  INFO 12600 --- [notification.system] [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-30T18:02:34.030+06:00  INFO 12600 --- [notification.system] [http-nio-8081-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 642 ms
+2025-05-30T18:02:39.236+06:00  INFO 12948 --- [notification.system] [main] com.notification.system.Application      : Starting Application using Java 17.0.12 with PID 12948 (F:\spring practice files\notification.system\notification.system\target\classes started by MD RAKIBUL HASAN in F:\spring practice files\notification.system)
+2025-05-30T18:02:39.247+06:00  INFO 12948 --- [notification.system] [main] com.notification.system.Application      : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T18:02:43.107+06:00  INFO 12948 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-30T18:02:43.132+06:00  INFO 12948 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T18:02:43.133+06:00  INFO 12948 --- [notification.system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-30T18:02:43.250+06:00  INFO 12948 --- [notification.system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T18:02:43.251+06:00  INFO 12948 --- [notification.system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3742 ms
+2025-05-30T18:02:43.857+06:00  INFO 12948 --- [notification.system] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-30T18:02:44.447+06:00  INFO 12948 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2025-05-30T18:02:44.452+06:00  INFO 12948 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@599a9cb2]]
+2025-05-30T18:02:44.453+06:00  INFO 12948 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2025-05-30T18:02:44.463+06:00  INFO 12948 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2025-05-30T18:02:44.463+06:00  INFO 12948 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@599a9cb2]]
+2025-05-30T18:02:44.464+06:00  INFO 12948 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2025-05-30T18:02:44.464+06:00  WARN 12948 --- [notification.system] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-05-30T18:02:44.493+06:00  INFO 12948 --- [notification.system] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-30T18:02:44.522+06:00 ERROR 12948 --- [notification.system] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2025-05-30T18:03:07.590+06:00  INFO 12600 --- [notification.system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30T18:03:08.016+06:00  INFO 12600 --- [notification.system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-30T18:03:08.019+06:00  INFO 12600 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2025-05-30T18:03:08.020+06:00  INFO 12600 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@153cb763]]
+2025-05-30T18:03:08.020+06:00  INFO 12600 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2025-05-30T18:03:11.886+06:00  INFO 12268 --- [notification.system] [main] com.notification.system.Application      : Starting Application using Java 17.0.12 with PID 12268 (F:\spring practice files\notification.system\notification.system\target\classes started by MD RAKIBUL HASAN in F:\spring practice files\notification.system)
+2025-05-30T18:03:11.896+06:00  INFO 12268 --- [notification.system] [main] com.notification.system.Application      : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T18:03:14.474+06:00  INFO 12268 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-30T18:03:14.504+06:00  INFO 12268 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T18:03:14.504+06:00  INFO 12268 --- [notification.system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-30T18:03:14.620+06:00  INFO 12268 --- [notification.system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T18:03:14.621+06:00  INFO 12268 --- [notification.system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2564 ms
+2025-05-30T18:03:15.204+06:00  INFO 12268 --- [notification.system] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-30T18:03:15.997+06:00  INFO 12268 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2025-05-30T18:03:16.000+06:00  INFO 12268 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@43d65a81]]
+2025-05-30T18:03:16.002+06:00  INFO 12268 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2025-05-30T18:03:16.048+06:00  INFO 12268 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-05-30T18:03:16.072+06:00  INFO 12268 --- [notification.system] [main] com.notification.system.Application      : Started Application in 5.395 seconds (process running for 6.138)
+2025-05-30T18:03:19.018+06:00  INFO 12268 --- [notification.system] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30T18:03:19.019+06:00  INFO 12268 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-30T18:03:19.032+06:00  INFO 12268 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-05-30T18:03:19.798+06:00  INFO 12268 --- [notification.system] [http-nio-8081-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 470 ms
+2025-05-30T18:03:32.789+06:00 ERROR 12268 --- [notification.system] [http-nio-8081-exec-4] c.n.s.exception.GlobalExceptionHandler   : Unhandled error: 
+2025-05-30T18:03:35.855+06:00 ERROR 12268 --- [notification.system] [http-nio-8081-exec-5] c.n.s.exception.GlobalExceptionHandler   : Unhandled error: 
+2025-05-30T18:04:16.049+06:00  INFO 12268 --- [notification.system] [MessageBroker-3] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 6]
+2025-05-30T18:04:31.515+06:00 ERROR 12268 --- [notification.system] [http-nio-8081-exec-6] c.n.s.exception.GlobalExceptionHandler   : Unhandled error: 
+2025-05-30T18:07:04.724+06:00 ERROR 12268 --- [notification.system] [http-nio-8081-exec-7] c.n.s.exception.GlobalExceptionHandler   : Unhandled error: 
+2025-05-30T18:07:09.041+06:00 ERROR 12268 --- [notification.system] [http-nio-8081-exec-8] c.n.s.exception.GlobalExceptionHandler   : Unhandled error: 
+2025-05-30T18:08:07.676+06:00 ERROR 12268 --- [notification.system] [http-nio-8081-exec-9] c.n.s.exception.GlobalExceptionHandler   : Unhandled error: 
+2025-05-30T18:09:01.294+06:00  INFO 12268 --- [notification.system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30T18:09:01.572+06:00  INFO 12268 --- [notification.system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-30T18:09:01.575+06:00  INFO 12268 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2025-05-30T18:09:01.575+06:00  INFO 12268 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@43d65a81]]
+2025-05-30T18:09:01.575+06:00  INFO 12268 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2025-05-30T18:09:18.306+06:00  INFO 6028 --- [notification.system] [main] com.notification.system.Application      : Starting Application using Java 17.0.12 with PID 6028 (F:\spring practice files\notification.system\notification.system\target\classes started by MD RAKIBUL HASAN in F:\spring practice files\notification.system)
+2025-05-30T18:09:18.320+06:00  INFO 6028 --- [notification.system] [main] com.notification.system.Application      : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T18:09:21.245+06:00  INFO 6028 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-30T18:09:21.273+06:00  INFO 6028 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T18:09:21.274+06:00  INFO 6028 --- [notification.system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-30T18:09:21.399+06:00  INFO 6028 --- [notification.system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T18:09:21.401+06:00  INFO 6028 --- [notification.system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2900 ms
+2025-05-30T18:09:22.173+06:00  INFO 6028 --- [notification.system] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-30T18:09:22.785+06:00  INFO 6028 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2025-05-30T18:09:22.790+06:00  INFO 6028 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@68af87ad]]
+2025-05-30T18:09:22.793+06:00  INFO 6028 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2025-05-30T18:09:22.827+06:00  INFO 6028 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-05-30T18:09:22.845+06:00  INFO 6028 --- [notification.system] [main] com.notification.system.Application      : Started Application in 5.81 seconds (process running for 6.537)
+2025-05-30T18:09:24.809+06:00  INFO 6028 --- [notification.system] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30T18:09:24.810+06:00  INFO 6028 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-30T18:09:24.812+06:00  INFO 6028 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-30T18:09:25.823+06:00  INFO 6028 --- [notification.system] [http-nio-8081-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 581 ms
+2025-05-30T18:10:11.985+06:00  INFO 6028 --- [notification.system] [http-nio-8081-exec-8] c.n.system.service.OrderService          : Order placed: ID 1
+2025-05-30T18:10:11.986+06:00 ERROR 6028 --- [notification.system] [http-nio-8081-exec-8] c.n.system.service.EmailService          : Email sending failed: Cannot invoke "org.springframework.mail.javamail.JavaMailSender.createMimeMessage()" because "this.mailSender" is null
+2025-05-30T18:10:12.855+06:00 ERROR 6028 --- [notification.system] [MessageBroker-3] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:68) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T18:10:22.830+06:00  INFO 6028 --- [notification.system] [MessageBroker-2] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 6]
+2025-05-30T18:10:22.851+06:00 ERROR 6028 --- [notification.system] [MessageBroker-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:73) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T18:11:12.013+06:00  INFO 6028 --- [notification.system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30T18:11:12.308+06:00  INFO 6028 --- [notification.system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-30T18:11:12.311+06:00  INFO 6028 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2025-05-30T18:11:12.311+06:00  INFO 6028 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@68af87ad]]
+2025-05-30T18:11:12.312+06:00  INFO 6028 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2025-05-30T18:11:27.235+06:00  INFO 6032 --- [notification.system] [main] com.notification.system.Application      : Starting Application using Java 17.0.12 with PID 6032 (F:\spring practice files\notification.system\notification.system\target\classes started by MD RAKIBUL HASAN in F:\spring practice files\notification.system)
+2025-05-30T18:11:27.247+06:00  INFO 6032 --- [notification.system] [main] com.notification.system.Application      : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T18:11:30.191+06:00  INFO 6032 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-30T18:11:30.214+06:00  INFO 6032 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T18:11:30.215+06:00  INFO 6032 --- [notification.system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-30T18:11:30.353+06:00  INFO 6032 --- [notification.system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T18:11:30.354+06:00  INFO 6032 --- [notification.system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2968 ms
+2025-05-30T18:11:31.112+06:00  INFO 6032 --- [notification.system] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-30T18:11:31.695+06:00  INFO 6032 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2025-05-30T18:11:31.699+06:00  INFO 6032 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@5e1a986c]]
+2025-05-30T18:11:31.700+06:00  INFO 6032 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2025-05-30T18:11:31.732+06:00  INFO 6032 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-05-30T18:11:31.757+06:00  INFO 6032 --- [notification.system] [main] com.notification.system.Application      : Started Application in 5.603 seconds (process running for 6.316)
+2025-05-30T18:11:32.654+06:00  INFO 6032 --- [notification.system] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30T18:11:32.655+06:00  INFO 6032 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-30T18:11:32.657+06:00  INFO 6032 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-30T18:11:34.322+06:00  INFO 6032 --- [notification.system] [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 526 ms
+2025-05-30T18:12:04.022+06:00  INFO 6032 --- [notification.system] [http-nio-8081-exec-6] c.n.system.service.OrderService          : Order placed: ID 1
+2025-05-30T18:12:06.681+06:00 ERROR 6032 --- [notification.system] [http-nio-8081-exec-6] c.n.system.service.EmailService          : Email sending failed: Authentication failed
+2025-05-30T18:12:11.766+06:00 ERROR 6032 --- [notification.system] [MessageBroker-3] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:68) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T18:12:21.767+06:00 ERROR 6032 --- [notification.system] [MessageBroker-3] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:73) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T18:12:31.715+06:00  INFO 6032 --- [notification.system] [MessageBroker-2] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 6]
+2025-05-30T18:42:31.727+06:00  INFO 6032 --- [notification.system] [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 187]
+2025-05-30T19:12:31.732+06:00  INFO 6032 --- [notification.system] [MessageBroker-4] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 368]
+2025-05-30T19:42:31.749+06:00  INFO 6032 --- [notification.system] [MessageBroker-3] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 549]
+2025-05-30T20:12:31.767+06:00  INFO 6032 --- [notification.system] [MessageBroker-4] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 0, completed tasks = 730]
+2025-05-30T20:42:31.775+06:00  INFO 6032 --- [notification.system] [MessageBroker-4] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 912]
+2025-05-30T21:03:05.875+06:00  INFO 6032 --- [notification.system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30T21:03:06.241+06:00  INFO 6032 --- [notification.system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-30T21:03:06.255+06:00  INFO 6032 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2025-05-30T21:03:06.257+06:00  INFO 6032 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@5e1a986c]]
+2025-05-30T21:03:06.258+06:00  INFO 6032 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2025-05-30T21:03:20.602+06:00  INFO 10512 --- [notification.system] [main] com.notification.system.Application      : Starting Application using Java 17.0.12 with PID 10512 (F:\spring practice files\notification.system\notification.system\target\classes started by MD RAKIBUL HASAN in F:\spring practice files\notification.system)
+2025-05-30T21:03:20.607+06:00  INFO 10512 --- [notification.system] [main] com.notification.system.Application      : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T21:03:23.634+06:00  INFO 10512 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-30T21:03:23.659+06:00  INFO 10512 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T21:03:23.660+06:00  INFO 10512 --- [notification.system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-30T21:03:23.774+06:00  INFO 10512 --- [notification.system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T21:03:23.775+06:00  INFO 10512 --- [notification.system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3006 ms
+2025-05-30T21:03:24.529+06:00  INFO 10512 --- [notification.system] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-30T21:03:25.563+06:00  INFO 10512 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2025-05-30T21:03:25.568+06:00  INFO 10512 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@4bf03fee]]
+2025-05-30T21:03:25.570+06:00  INFO 10512 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2025-05-30T21:03:25.617+06:00  INFO 10512 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-05-30T21:03:25.637+06:00  INFO 10512 --- [notification.system] [main] com.notification.system.Application      : Started Application in 6.233 seconds (process running for 7.029)
+2025-05-30T21:03:25.738+06:00  INFO 10512 --- [notification.system] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30T21:03:25.739+06:00  INFO 10512 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-30T21:03:25.742+06:00  INFO 10512 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-30T21:03:27.443+06:00  INFO 10512 --- [notification.system] [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 542 ms
+2025-05-30T21:03:56.360+06:00  INFO 10512 --- [notification.system] [http-nio-8081-exec-6] c.n.system.service.OrderService          : Order placed: ID 1
+2025-05-30T21:04:05.646+06:00 ERROR 10512 --- [notification.system] [MessageBroker-2] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:68) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T21:04:15.634+06:00 ERROR 10512 --- [notification.system] [MessageBroker-2] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:73) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T21:04:17.525+06:00 ERROR 10512 --- [notification.system] [http-nio-8081-exec-6] c.n.system.service.EmailService          : Email sending failed: Mail server connection failed. Failed messages: org.eclipse.angus.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 2525; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection timed out: connect
+2025-05-30T21:04:25.603+06:00  INFO 10512 --- [notification.system] [MessageBroker-3] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 6]
+2025-05-30T21:04:42.060+06:00  INFO 10512 --- [notification.system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30T21:04:42.397+06:00  INFO 10512 --- [notification.system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-30T21:04:42.400+06:00  INFO 10512 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2025-05-30T21:04:42.400+06:00  INFO 10512 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@4bf03fee]]
+2025-05-30T21:04:42.400+06:00  INFO 10512 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2025-05-30T21:05:01.029+06:00  INFO 11936 --- [notification.system] [main] com.notification.system.Application      : Starting Application using Java 17.0.12 with PID 11936 (F:\spring practice files\notification.system\notification.system\target\classes started by MD RAKIBUL HASAN in F:\spring practice files\notification.system)
+2025-05-30T21:05:01.037+06:00  INFO 11936 --- [notification.system] [main] com.notification.system.Application      : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T21:05:03.563+06:00  INFO 11936 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-30T21:05:03.587+06:00  INFO 11936 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T21:05:03.588+06:00  INFO 11936 --- [notification.system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-30T21:05:03.704+06:00  INFO 11936 --- [notification.system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T21:05:03.704+06:00  INFO 11936 --- [notification.system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2486 ms
+2025-05-30T21:05:04.382+06:00  INFO 11936 --- [notification.system] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-30T21:05:04.984+06:00  INFO 11936 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2025-05-30T21:05:04.988+06:00  INFO 11936 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@43d65a81]]
+2025-05-30T21:05:04.992+06:00  INFO 11936 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2025-05-30T21:05:05.028+06:00  INFO 11936 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-05-30T21:05:05.049+06:00  INFO 11936 --- [notification.system] [main] com.notification.system.Application      : Started Application in 5.315 seconds (process running for 6.281)
+2025-05-30T21:05:06.297+06:00  INFO 11936 --- [notification.system] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30T21:05:06.298+06:00  INFO 11936 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-30T21:05:06.300+06:00  INFO 11936 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-30T21:05:07.576+06:00  INFO 11936 --- [notification.system] [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 546 ms
+2025-05-30T21:05:23.991+06:00  INFO 11936 --- [notification.system] [http-nio-8081-exec-5] c.n.system.service.OrderService          : Order placed: ID 1
+2025-05-30T21:05:25.055+06:00 ERROR 11936 --- [notification.system] [MessageBroker-3] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:68) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T21:05:26.501+06:00 ERROR 11936 --- [notification.system] [http-nio-8081-exec-5] c.n.system.service.EmailService          : Email sending failed: Authentication failed
+2025-05-30T21:05:35.056+06:00 ERROR 11936 --- [notification.system] [MessageBroker-3] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:73) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T21:06:05.010+06:00  INFO 11936 --- [notification.system] [MessageBroker-2] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 6]
+2025-05-30T21:06:12.129+06:00  INFO 11936 --- [notification.system] [http-nio-8081-exec-6] c.n.system.service.OrderService          : Order placed: ID 2
+2025-05-30T21:06:13.858+06:00 ERROR 11936 --- [notification.system] [http-nio-8081-exec-6] c.n.system.service.EmailService          : Email sending failed: Authentication failed
+2025-05-30T21:06:15.054+06:00 ERROR 11936 --- [notification.system] [MessageBroker-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:68) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T21:06:21.310+06:00  INFO 11936 --- [notification.system] [http-nio-8081-exec-7] c.n.system.service.OrderService          : Order placed: ID 3
+2025-05-30T21:06:23.560+06:00 ERROR 11936 --- [notification.system] [http-nio-8081-exec-7] c.n.system.service.EmailService          : Email sending failed: Authentication failed
+2025-05-30T21:06:25.047+06:00 ERROR 11936 --- [notification.system] [MessageBroker-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:73) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T21:06:35.058+06:00 ERROR 11936 --- [notification.system] [MessageBroker-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:68) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T21:06:45.049+06:00 ERROR 11936 --- [notification.system] [MessageBroker-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:73) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T21:07:58.912+06:00  INFO 11936 --- [notification.system] [http-nio-8081-exec-4] c.n.system.service.OrderService          : Order placed: ID 4
+2025-05-30T21:08:00.612+06:00 ERROR 11936 --- [notification.system] [http-nio-8081-exec-4] c.n.system.service.EmailService          : Email sending failed: Authentication failed
+2025-05-30T21:08:05.054+06:00 ERROR 11936 --- [notification.system] [MessageBroker-4] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:68) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor65.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T21:08:15.046+06:00 ERROR 11936 --- [notification.system] [MessageBroker-4] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:73) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor65.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T21:09:22.689+06:00  INFO 11936 --- [notification.system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30T21:09:22.973+06:00  INFO 11936 --- [notification.system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-30T21:09:22.976+06:00  INFO 11936 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2025-05-30T21:09:22.976+06:00  INFO 11936 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@43d65a81]]
+2025-05-30T21:09:22.976+06:00  INFO 11936 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2025-05-30T21:10:12.687+06:00  INFO 9636 --- [notification.system] [main] com.notification.system.Application      : Starting Application using Java 17.0.12 with PID 9636 (F:\spring practice files\notification.system\notification.system\target\classes started by MD RAKIBUL HASAN in F:\spring practice files\notification.system)
+2025-05-30T21:10:12.696+06:00  INFO 9636 --- [notification.system] [main] com.notification.system.Application      : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T21:10:14.962+06:00  INFO 9636 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-30T21:10:14.988+06:00  INFO 9636 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T21:10:14.988+06:00  INFO 9636 --- [notification.system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-30T21:10:15.109+06:00  INFO 9636 --- [notification.system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T21:10:15.110+06:00  INFO 9636 --- [notification.system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2269 ms
+2025-05-30T21:10:15.715+06:00  INFO 9636 --- [notification.system] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-30T21:10:16.287+06:00  INFO 9636 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2025-05-30T21:10:16.290+06:00  INFO 9636 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3a1b36a1]]
+2025-05-30T21:10:16.292+06:00  INFO 9636 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2025-05-30T21:10:16.383+06:00  INFO 9636 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-05-30T21:10:16.426+06:00  INFO 9636 --- [notification.system] [main] com.notification.system.Application      : Started Application in 4.767 seconds (process running for 5.613)
+2025-05-30T21:10:16.594+06:00  INFO 9636 --- [notification.system] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30T21:10:16.595+06:00  INFO 9636 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-30T21:10:16.599+06:00  INFO 9636 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-30T21:10:17.842+06:00  INFO 9636 --- [notification.system] [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 542 ms
+2025-05-30T21:10:38.353+06:00  INFO 9636 --- [notification.system] [http-nio-8081-exec-5] c.n.system.service.OrderService          : Order placed: ID 1
+2025-05-30T21:10:46.425+06:00 ERROR 9636 --- [notification.system] [MessageBroker-3] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:68) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T21:10:46.713+06:00 ERROR 9636 --- [notification.system] [http-nio-8081-exec-5] c.n.system.service.EmailService          : Email sending failed: Failed messages: org.eclipse.angus.mail.smtp.SMTPSendFailedException: 550 5.7.1 Sending from domain desktop-bpcpubu is not allowed
+;
+  nested exception is:
+	org.eclipse.angus.mail.smtp.SMTPSenderFailedException: 550 5.7.1 Sending from domain desktop-bpcpubu is not allowed
+
+2025-05-30T21:10:56.424+06:00 ERROR 9636 --- [notification.system] [MessageBroker-3] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:73) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T21:11:16.329+06:00  INFO 9636 --- [notification.system] [MessageBroker-2] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 6]
+2025-05-30T21:24:50.096+06:00  INFO 9636 --- [notification.system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30T21:24:50.430+06:00  INFO 9636 --- [notification.system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-30T21:24:50.433+06:00  INFO 9636 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2025-05-30T21:24:50.434+06:00  INFO 9636 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@3a1b36a1]]
+2025-05-30T21:24:50.434+06:00  INFO 9636 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2025-05-30T21:25:14.645+06:00  INFO 6320 --- [notification.system] [main] com.notification.system.Application      : Starting Application using Java 17.0.12 with PID 6320 (F:\spring practice files\notification.system\notification.system\target\classes started by MD RAKIBUL HASAN in F:\spring practice files\notification.system)
+2025-05-30T21:25:14.660+06:00  INFO 6320 --- [notification.system] [main] com.notification.system.Application      : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T21:25:18.382+06:00  INFO 6320 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-30T21:25:18.430+06:00  INFO 6320 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T21:25:18.431+06:00  INFO 6320 --- [notification.system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-30T21:25:18.667+06:00  INFO 6320 --- [notification.system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T21:25:18.668+06:00  INFO 6320 --- [notification.system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3841 ms
+2025-05-30T21:25:19.384+06:00  INFO 6320 --- [notification.system] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-30T21:25:20.048+06:00  INFO 6320 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2025-05-30T21:25:20.052+06:00  INFO 6320 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@9cfc77]]
+2025-05-30T21:25:20.053+06:00  INFO 6320 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2025-05-30T21:25:20.096+06:00  INFO 6320 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-05-30T21:25:20.120+06:00  INFO 6320 --- [notification.system] [main] com.notification.system.Application      : Started Application in 7.06 seconds (process running for 7.844)
+2025-05-30T21:25:20.446+06:00  INFO 6320 --- [notification.system] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30T21:25:20.447+06:00  INFO 6320 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-30T21:25:20.449+06:00  INFO 6320 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-30T21:25:21.905+06:00  INFO 6320 --- [notification.system] [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 534 ms
+2025-05-30T21:25:40.907+06:00  INFO 6320 --- [notification.system] [http-nio-8081-exec-5] c.n.system.service.OrderService          : Order placed: ID 1
+2025-05-30T21:25:44.379+06:00 ERROR 6320 --- [notification.system] [http-nio-8081-exec-5] c.n.system.service.EmailService          : Email sending failed: Authentication failed
+2025-05-30T21:25:50.126+06:00 ERROR 6320 --- [notification.system] [MessageBroker-3] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:68) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T21:26:00.120+06:00 ERROR 6320 --- [notification.system] [MessageBroker-3] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:73) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T21:26:20.059+06:00  INFO 6320 --- [notification.system] [MessageBroker-2] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 6]
+2025-05-30T21:28:45.958+06:00  INFO 6320 --- [notification.system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30T21:28:46.272+06:00  INFO 6320 --- [notification.system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-30T21:28:46.275+06:00  INFO 6320 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2025-05-30T21:28:46.276+06:00  INFO 6320 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@9cfc77]]
+2025-05-30T21:28:46.276+06:00  INFO 6320 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2025-05-30T21:29:51.285+06:00  INFO 12944 --- [notification.system] [main] com.notification.system.Application      : Starting Application using Java 17.0.12 with PID 12944 (F:\spring practice files\notification.system\notification.system\target\classes started by MD RAKIBUL HASAN in F:\spring practice files\notification.system)
+2025-05-30T21:29:51.294+06:00  INFO 12944 --- [notification.system] [main] com.notification.system.Application      : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T21:29:53.641+06:00  INFO 12944 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-30T21:29:53.664+06:00  INFO 12944 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T21:29:53.665+06:00  INFO 12944 --- [notification.system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-30T21:29:53.770+06:00  INFO 12944 --- [notification.system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T21:29:53.771+06:00  INFO 12944 --- [notification.system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2297 ms
+2025-05-30T21:29:54.409+06:00  INFO 12944 --- [notification.system] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-30T21:29:54.994+06:00  INFO 12944 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2025-05-30T21:29:54.998+06:00  INFO 12944 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@22ead351]]
+2025-05-30T21:29:54.999+06:00  INFO 12944 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2025-05-30T21:29:55.034+06:00  INFO 12944 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-05-30T21:29:55.053+06:00  INFO 12944 --- [notification.system] [main] com.notification.system.Application      : Started Application in 4.912 seconds (process running for 5.672)
+2025-05-30T21:29:56.508+06:00  INFO 12944 --- [notification.system] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30T21:29:56.509+06:00  INFO 12944 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-30T21:29:56.512+06:00  INFO 12944 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-05-30T21:29:57.746+06:00  INFO 12944 --- [notification.system] [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 607 ms
+2025-05-30T21:30:32.126+06:00  INFO 12944 --- [notification.system] [http-nio-8081-exec-5] c.n.system.service.OrderService          : Order placed: ID 1
+2025-05-30T21:30:35.062+06:00 ERROR 12944 --- [notification.system] [MessageBroker-3] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:68) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T21:30:38.282+06:00  INFO 12944 --- [notification.system] [http-nio-8081-exec-5] c.n.system.service.EmailService          : Email sent to mdrakibulhasn3502@gmail.com
+2025-05-30T21:30:38.287+06:00 ERROR 12944 --- [notification.system] [http-nio-8081-exec-5] c.n.s.exception.GlobalExceptionHandler   : Unhandled error: 
+2025-05-30T21:30:45.057+06:00 ERROR 12944 --- [notification.system] [MessageBroker-3] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: Cannot invoke "org.springframework.messaging.simp.SimpMessagingTemplate.convertAndSend(Object, Object)" because "this.messagingTemplate" is null
+	at com.notification.system.service.OrderService.updataOrderStatus(OrderService.java:73) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at io.micrometer.observation.Observation.observe(Observation.java:498) ~[micrometer-observation-1.15.0.jar:1.15.0]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.config.Task$OutcomeTrackingRunnable.run(Task.java:85) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.2.7.jar:6.2.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-05-30T21:30:55.032+06:00  INFO 12944 --- [notification.system] [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 6]
+2025-05-30T21:33:41.975+06:00  INFO 12944 --- [notification.system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30T21:33:42.262+06:00  INFO 12944 --- [notification.system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-30T21:33:42.265+06:00  INFO 12944 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2025-05-30T21:33:42.265+06:00  INFO 12944 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@22ead351]]
+2025-05-30T21:33:42.265+06:00  INFO 12944 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2025-05-30T21:34:06.312+06:00  INFO 12180 --- [notification.system] [main] com.notification.system.Application      : Starting Application using Java 17.0.12 with PID 12180 (F:\spring practice files\notification.system\notification.system\target\classes started by MD RAKIBUL HASAN in F:\spring practice files\notification.system)
+2025-05-30T21:34:06.319+06:00  INFO 12180 --- [notification.system] [main] com.notification.system.Application      : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T21:34:09.066+06:00  INFO 12180 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-30T21:34:09.090+06:00  INFO 12180 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T21:34:09.092+06:00  INFO 12180 --- [notification.system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-30T21:34:09.251+06:00  INFO 12180 --- [notification.system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T21:34:09.252+06:00  INFO 12180 --- [notification.system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2784 ms
+2025-05-30T21:34:09.410+06:00  WARN 12180 --- [notification.system] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'orderService' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\service\OrderService.class]: Failed to instantiate [com.notification.system.service.OrderService]: No default constructor found
+2025-05-30T21:34:09.416+06:00  INFO 12180 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-30T21:34:09.451+06:00  INFO 12180 --- [notification.system] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-30T21:34:09.496+06:00 ERROR 12180 --- [notification.system] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'orderService' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\service\OrderService.class]: Failed to instantiate [com.notification.system.service.OrderService]: No default constructor found
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) ~[spring-boot-3.5.0.jar:3.5.0]
+	at com.notification.system.Application.main(Application.java:12) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderService' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\service\OrderService.class]: Failed to instantiate [com.notification.system.service.OrderService]: No default constructor found
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1357) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1242) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1682) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 21 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.notification.system.service.OrderService]: No default constructor found
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:118) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1351) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 32 common frames omitted
+Caused by: java.lang.NoSuchMethodException: com.notification.system.service.OrderService.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3585) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2754) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:114) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 33 common frames omitted
+
+2025-05-30T21:34:40.330+06:00  INFO 8708 --- [notification.system] [main] com.notification.system.Application      : Starting Application using Java 17.0.12 with PID 8708 (F:\spring practice files\notification.system\notification.system\target\classes started by MD RAKIBUL HASAN in F:\spring practice files\notification.system)
+2025-05-30T21:34:40.338+06:00  INFO 8708 --- [notification.system] [main] com.notification.system.Application      : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T21:34:42.792+06:00  INFO 8708 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-30T21:34:42.817+06:00  INFO 8708 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T21:34:42.817+06:00  INFO 8708 --- [notification.system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-30T21:34:42.933+06:00  INFO 8708 --- [notification.system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T21:34:42.933+06:00  INFO 8708 --- [notification.system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2443 ms
+2025-05-30T21:34:43.079+06:00  WARN 8708 --- [notification.system] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'orderService' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\service\OrderService.class]: Failed to instantiate [com.notification.system.service.OrderService]: No default constructor found
+2025-05-30T21:34:43.087+06:00  INFO 8708 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-30T21:34:43.114+06:00  INFO 8708 --- [notification.system] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-30T21:34:43.147+06:00 ERROR 8708 --- [notification.system] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'orderService' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\service\OrderService.class]: Failed to instantiate [com.notification.system.service.OrderService]: No default constructor found
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) ~[spring-boot-3.5.0.jar:3.5.0]
+	at com.notification.system.Application.main(Application.java:12) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderService' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\service\OrderService.class]: Failed to instantiate [com.notification.system.service.OrderService]: No default constructor found
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1357) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1242) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1682) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 21 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.notification.system.service.OrderService]: No default constructor found
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:118) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1351) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 32 common frames omitted
+Caused by: java.lang.NoSuchMethodException: com.notification.system.service.OrderService.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3585) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2754) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:114) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 33 common frames omitted
+
+2025-05-30T21:37:42.068+06:00  INFO 6032 --- [notification.system] [main] com.notification.system.Application      : Starting Application using Java 17.0.12 with PID 6032 (F:\spring practice files\notification.system\notification.system\target\classes started by MD RAKIBUL HASAN in F:\spring practice files\notification.system)
+2025-05-30T21:37:42.079+06:00  INFO 6032 --- [notification.system] [main] com.notification.system.Application      : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T21:37:44.589+06:00  INFO 6032 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-30T21:37:44.615+06:00  INFO 6032 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T21:37:44.616+06:00  INFO 6032 --- [notification.system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-30T21:37:44.732+06:00  INFO 6032 --- [notification.system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T21:37:44.733+06:00  INFO 6032 --- [notification.system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2506 ms
+2025-05-30T21:37:44.894+06:00  WARN 6032 --- [notification.system] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'orderService' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\service\OrderService.class]: Failed to instantiate [com.notification.system.service.OrderService]: No default constructor found
+2025-05-30T21:37:44.903+06:00  INFO 6032 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-30T21:37:44.927+06:00  INFO 6032 --- [notification.system] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-30T21:37:44.963+06:00 ERROR 6032 --- [notification.system] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'orderService' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\service\OrderService.class]: Failed to instantiate [com.notification.system.service.OrderService]: No default constructor found
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) ~[spring-boot-3.5.0.jar:3.5.0]
+	at com.notification.system.Application.main(Application.java:12) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderService' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\service\OrderService.class]: Failed to instantiate [com.notification.system.service.OrderService]: No default constructor found
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1357) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1242) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1682) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 21 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.notification.system.service.OrderService]: No default constructor found
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:118) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1351) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 32 common frames omitted
+Caused by: java.lang.NoSuchMethodException: com.notification.system.service.OrderService.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3585) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2754) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:114) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 33 common frames omitted
+
+2025-05-30T21:37:48.154+06:00  INFO 5532 --- [notification.system] [main] com.notification.system.Application      : Starting Application using Java 17.0.12 with PID 5532 (F:\spring practice files\notification.system\notification.system\target\classes started by MD RAKIBUL HASAN in F:\spring practice files\notification.system)
+2025-05-30T21:37:48.160+06:00  INFO 5532 --- [notification.system] [main] com.notification.system.Application      : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T21:37:50.476+06:00  INFO 5532 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-30T21:37:50.502+06:00  INFO 5532 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T21:37:50.503+06:00  INFO 5532 --- [notification.system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-30T21:37:50.620+06:00  INFO 5532 --- [notification.system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T21:37:50.621+06:00  INFO 5532 --- [notification.system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2321 ms
+2025-05-30T21:37:50.772+06:00  WARN 5532 --- [notification.system] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'orderService' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\service\OrderService.class]: Failed to instantiate [com.notification.system.service.OrderService]: No default constructor found
+2025-05-30T21:37:50.777+06:00  INFO 5532 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-05-30T21:37:50.804+06:00  INFO 5532 --- [notification.system] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-30T21:37:50.837+06:00 ERROR 5532 --- [notification.system] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'orderController' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\controller\OrderController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'orderService' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\service\OrderService.class]: Failed to instantiate [com.notification.system.service.OrderService]: No default constructor found
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.7.jar:6.2.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362) ~[spring-boot-3.5.0.jar:3.5.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351) ~[spring-boot-3.5.0.jar:3.5.0]
+	at com.notification.system.Application.main(Application.java:12) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'orderService' defined in file [F:\spring practice files\notification.system\notification.system\target\classes\com\notification\system\service\OrderService.class]: Failed to instantiate [com.notification.system.service.OrderService]: No default constructor found
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1357) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1242) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1682) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 21 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.notification.system.service.OrderService]: No default constructor found
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:118) ~[spring-beans-6.2.7.jar:6.2.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1351) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 32 common frames omitted
+Caused by: java.lang.NoSuchMethodException: com.notification.system.service.OrderService.<init>()
+	at java.base/java.lang.Class.getConstructor0(Class.java:3585) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredConstructor(Class.java:2754) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:114) ~[spring-beans-6.2.7.jar:6.2.7]
+	... 33 common frames omitted
+
+2025-05-30T21:39:52.770+06:00  INFO 828 --- [notification.system] [main] com.notification.system.Application      : Starting Application using Java 17.0.12 with PID 828 (F:\spring practice files\notification.system\notification.system\target\classes started by MD RAKIBUL HASAN in F:\spring practice files\notification.system)
+2025-05-30T21:39:52.777+06:00  INFO 828 --- [notification.system] [main] com.notification.system.Application      : No active profile set, falling back to 1 default profile: "default"
+2025-05-30T21:39:55.815+06:00  INFO 828 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-05-30T21:39:55.834+06:00  INFO 828 --- [notification.system] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-30T21:39:55.835+06:00  INFO 828 --- [notification.system] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-05-30T21:39:55.945+06:00  INFO 828 --- [notification.system] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-30T21:39:55.946+06:00  INFO 828 --- [notification.system] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2984 ms
+2025-05-30T21:39:56.595+06:00  INFO 828 --- [notification.system] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-30T21:39:57.213+06:00  INFO 828 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2025-05-30T21:39:57.216+06:00  INFO 828 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@46a795de]]
+2025-05-30T21:39:57.218+06:00  INFO 828 --- [notification.system] [main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2025-05-30T21:39:57.253+06:00  INFO 828 --- [notification.system] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-05-30T21:39:57.276+06:00  INFO 828 --- [notification.system] [main] com.notification.system.Application      : Started Application in 5.513 seconds (process running for 6.318)
+2025-05-30T21:40:14.476+06:00  INFO 828 --- [notification.system] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-30T21:40:14.478+06:00  INFO 828 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-30T21:40:14.482+06:00  INFO 828 --- [notification.system] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-05-30T21:40:15.862+06:00  INFO 828 --- [notification.system] [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 656 ms
+2025-05-30T21:40:25.243+06:00  INFO 828 --- [notification.system] [http-nio-8081-exec-5] c.n.system.service.OrderService          : Order placed: ID 1
+2025-05-30T21:40:27.302+06:00  INFO 828 --- [notification.system] [MessageBroker-1] c.n.system.service.OrderService          : Order 1 status: PREPARING
+2025-05-30T21:40:32.571+06:00  INFO 828 --- [notification.system] [http-nio-8081-exec-5] c.n.system.service.EmailService          : Email sent to mdrakibulhasn3502@gmail.com
+2025-05-30T21:40:32.572+06:00  INFO 828 --- [notification.system] [http-nio-8081-exec-5] c.n.system.service.OrderService          : WebSocket notification sent for order 1
+2025-05-30T21:40:37.288+06:00  INFO 828 --- [notification.system] [MessageBroker-1] c.n.system.service.OrderService          : Order 1 status: READY.
+2025-05-30T21:40:57.259+06:00  INFO 828 --- [notification.system] [MessageBroker-3] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 6]
+2025-05-30T21:48:54.003+06:00  INFO 828 --- [notification.system] [http-nio-8081-exec-8] c.n.system.service.OrderService          : Order placed: ID 2
+2025-05-30T21:48:57.282+06:00  INFO 828 --- [notification.system] [MessageBroker-4] c.n.system.service.OrderService          : Order 2 status: PREPARING
+2025-05-30T21:48:59.021+06:00  INFO 828 --- [notification.system] [http-nio-8081-exec-8] c.n.system.service.EmailService          : Email sent to mdrakibulhasn3502@gmail.com
+2025-05-30T21:48:59.021+06:00  INFO 828 --- [notification.system] [http-nio-8081-exec-8] c.n.system.service.OrderService          : WebSocket notification sent for order 2
+2025-05-30T21:49:07.286+06:00  INFO 828 --- [notification.system] [MessageBroker-4] c.n.system.service.OrderService          : Order 2 status: READY.
+2025-05-30T21:49:39.021+06:00  INFO 828 --- [notification.system] [http-nio-8081-exec-9] c.n.system.service.OrderService          : Order placed: ID 3
+2025-05-30T21:49:44.237+06:00  INFO 828 --- [notification.system] [http-nio-8081-exec-9] c.n.system.service.EmailService          : Email sent to mdrakibulhasn3502@gmail.com
+2025-05-30T21:49:44.237+06:00  INFO 828 --- [notification.system] [http-nio-8081-exec-9] c.n.system.service.OrderService          : WebSocket notification sent for order 3
+2025-05-30T21:49:47.279+06:00  INFO 828 --- [notification.system] [MessageBroker-3] c.n.system.service.OrderService          : Order 3 status: PREPARING
+2025-05-30T21:49:57.279+06:00  INFO 828 --- [notification.system] [MessageBroker-3] c.n.system.service.OrderService          : Order 3 status: READY.
+2025-05-30T21:50:58.602+06:00  INFO 828 --- [notification.system] [http-nio-8081-exec-10] c.n.system.service.OrderService          : Order placed: ID 4
+2025-05-30T21:51:04.051+06:00  INFO 828 --- [notification.system] [http-nio-8081-exec-10] c.n.system.service.EmailService          : Email sent to mdrakibulhasn3502@gmail.com
+2025-05-30T21:51:04.052+06:00  INFO 828 --- [notification.system] [http-nio-8081-exec-10] c.n.system.service.OrderService          : WebSocket notification sent for order 4
+2025-05-30T21:51:07.280+06:00  INFO 828 --- [notification.system] [MessageBroker-4] c.n.system.service.OrderService          : Order 4 status: PREPARING
+2025-05-30T21:51:17.278+06:00  INFO 828 --- [notification.system] [MessageBroker-4] c.n.system.service.OrderService          : Order 4 status: READY.
+2025-05-30T21:55:39.553+06:00  INFO 828 --- [notification.system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-30T21:55:39.821+06:00  INFO 828 --- [notification.system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-30T21:55:39.824+06:00  INFO 828 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2025-05-30T21:55:39.824+06:00  INFO 828 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@46a795de]]
+2025-05-30T21:55:39.824+06:00  INFO 828 --- [notification.system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
