@@ -18,7 +18,6 @@ public class EmailService {
 	@Autowired
 	private JavaMailSender mailSender;
 
-
 	public void sendOrderConfirmation( Order order ){
 		try{
 			MimeMessage message = mailSender.createMimeMessage ();
